@@ -22,7 +22,7 @@ This state is stored by default in a local file named "terraform.tfstate". When 
 Ensure the following tools are installed for local execution:
 
 * [AWS Command Line Interface](https://aws.amazon.com/cli/)
-* OpenTofu - Please refer to the official OpenTofu documentation for installation instructions.
+* [OpenTofu](https://opentofu.org/docs/intro/install/)
 
 ## Handling Environment Variables
 
