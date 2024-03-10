@@ -1,9 +1,7 @@
-#  To use DynamoDB for locking with Terraform
-resource "aws_dynamodb_table" "terraform_locks" {
+#  To use DynamoDB for locking with Opentofu
+resource "aws_dynamodb_table" "opentofu_locks" {
   name           = var.dynamodb_table_name
   billing_mode   = "PAY_PER_REQUEST"
-  read_capacity  = 10
-  write_capacity = 10
   hash_key       = "LockID"
   attribute {
     name = "LockID"
